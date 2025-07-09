@@ -1,19 +1,88 @@
 {
-    "ReverseCategorys": True,
+    "ReverseCategorys": false,
     "ShowPrivateWorld": false,
     "Categorys": [
         {
-    "Category": "スポーツ２",
-    "Worlds": []
-    
-}
+            "Category": "カテゴリ1",
+            "Worlds": [
+                {
+                "ID": "wrld_00001111-2222-3333-4444-555566667777",
+                "Name": "ワールド名1",
+                "RecommendedCapacity": 30,
+                "Capacity": 60,
+                "Description": "ワールドの説明文1",
+                "Platform": {
+                    "PC": true,
+                    "Android": true,
+                    "iOS": true
+                },
+                "ReleaseStatus": "public",
+                "PermittedRoles": ["ロール1", "ロール2"]
+            },
+            {
+                "ID": "wrld_01234567-0123-4567-89ab-0123456789ab",
+                "Name": "ワールド名2",
+                "RecommendedCapacity": 20,
+                "Capacity": 40,
+                "Description": "ワールドの説明文2",
+                "Platform": {
+                    "PC": true,
+                    "Android": true,
+                    "iOS": false
+                },
+                "ReleaseStatus": "private",
+                "PermittedRoles": ["ロール2", "ロール3"]
+            }
+            ]
+            "PermittedRoles": ["ロール1", "ロール2"]
+        },
+        {
+            "Category": "カテゴリ2",
+            "Worlds": [
+                {
+                    "ID": "wrld_00001111-2222-3333-4444-555566667777",
+                    "Name": "ワールド名1",
+                    "RecommendedCapacity": 30,
+                    "Capacity": 60,
+                    "Description": "ワールドの説明文1",
+                    "Platform": {
+                        "PC": true,
+                        "Android": true,
+                        "iOS": true
+                    },
+                    "ReleaseStatus": "public",
+                    "PermittedRoles": ["ロール1", "ロール2"]
+                },
+                {
+                    "ID": "wrld_01234567-0123-4567-89ab-0123456789ab",
+                    "Name": "ワールド名2",
+                    "RecommendedCapacity": 20,
+                    "Capacity": 40,
+                    "Description": "ワールドの説明文2",
+                    "Platform": {
+                        "PC": true,
+                        "Android": true,
+                        "iOS": false
+                    },
+                    "ReleaseStatus": "private",
+                    "PermittedRoles": ["ロール2", "ロール3"]
+                }
+            ]
+            "PermittedRoles": ["ロール2", "ロール3"]
+        }
     ]
-    "Roles": []
-}
-
-,                                                                                                        
-{
-    "Category": "カテゴリ2",
-    "Worlds": []
-    
+    "Roles": [
+        {
+            "RoleName": "ロール1",
+            "DisplayNames": ["ユーザー1", "ユーザー2"]
+        },
+        {
+            "RoleName": "ロール2",
+            "DisplayNames": ["ユーザー1", "ユーザー3"]
+        },
+        {
+            "RoleName": "ロール3",
+            "DisplayNames": ["ユーザー1", "ユーザー4"]
+        }
+    ]
 }
