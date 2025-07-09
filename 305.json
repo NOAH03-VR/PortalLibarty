@@ -5,7 +5,7 @@
         {
     "Category": "スポーツ２",
     "Worlds": []
-    "PermittedRoles": ["ロール1", "ロール2"]
+    
 }
     ]
     "Roles": []
@@ -15,5 +15,5 @@
 {
     "Category": "カテゴリ2",
     "Worlds": []
-    "PermittedRoles": ["ロール2", "ロール3"]
+    
 }
