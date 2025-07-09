@@ -1,15 +1,17 @@
 {
     "ReverseCategorys": True,
     "ShowPrivateWorld": false,
-    "Categorys": [2]
+    "Categorys": [
+        {
+    "Category": "スポーツ２",
+    "Worlds": []
+    "PermittedRoles": ["ロール1", "ロール2"]
+}
+    ]
     "Roles": []
 }
 
-{
-    "Category": "su",
-    "Worlds": []
-    "PermittedRoles": ["ロール1", "ロール2"]
-},
+,                                                                                                        
 {
     "Category": "カテゴリ2",
     "Worlds": []
