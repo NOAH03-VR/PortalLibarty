@@ -4,3 +4,14 @@
     "Categorys": [2]
     "Roles": []
 }
+
+{
+    "Category": "su",
+    "Worlds": []
+    "PermittedRoles": ["ロール1", "ロール2"]
+},
+{
+    "Category": "カテゴリ2",
+    "Worlds": []
+    "PermittedRoles": ["ロール2", "ロール3"]
+}
