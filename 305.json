@@ -1,23 +1,23 @@
 {
     "ReverseCategorys": false,
-    "ShowPrivateWorld": false,
+    "ShowPrivateWorld": true,
     "Categorys": [
         {
-            "Category": "カテゴリ1",
+            "Category": "スポーツ",
             "Worlds": [
                 {
-                "ID": "wrld_00001111-2222-3333-4444-555566667777",
-                "Name": "ワールド名1",
+                "ID": "world/wrld_99123966-6b37-46d9-835c-25c2f6e0706c",
+                "Name": "VRC Volleyball",
                 "RecommendedCapacity": 30,
-                "Capacity": 60,
-                "Description": "ワールドの説明文1",
+                "Capacity": 32,
+                "Description": "［OPEN BETA］ ［VR ONLY］ ［2vs2~6vs6］ VRChatで本格バレーボール！自動進行で試合ができるゲームワールドです。＃VRC_Volleyball Real Volleyball in VRChatǃ This is a game world where you can play matches with automated progression․ VRChat에서 본격적인 배구ǃ 자동으로 진행되는 경기 월드입니다․ X：＠VRC_Volleyball",
                 "Platform": {
                     "PC": true,
-                    "Android": true,
-                    "iOS": true
+                    "Android": false,
+                    "iOS": false
                 },
                 "ReleaseStatus": "public",
-                "PermittedRoles": ["ロール1", "ロール2"]
+                "PermittedRoles": ["ロール1"]
             },
             {
                 "ID": "wrld_01234567-0123-4567-89ab-0123456789ab",
@@ -74,7 +74,7 @@
     "Roles": [
         {
             "RoleName": "ロール1",
-            "DisplayNames": ["ユーザー1", "ユーザー2"]
+            "DisplayNames": ["望碧（NOAH03）"]
         },
         {
             "RoleName": "ロール2",
