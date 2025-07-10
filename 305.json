@@ -37,31 +37,30 @@
             "PermittedRoles": ["ロール1", "ロール2"]
         },
         {
-            "Category": "カテゴリ2",
+            "Category": "ホラーポータル",
             "Worlds": [
                 {
-                    "ID": "wrld_00001111-2222-3333-4444-555566667777",
-                    "Name": "ワールド名1",
-                    "RecommendedCapacity": 30,
-                    "Capacity": 60,
-                    "Description": "ワールドの説明文1",
+                    "ID": "wrld_3c7486d3-6cf4-42fd-bc46-071c682cb54d",
+                    "Name": "［JP］Horror portal World _ホラーワールドポータルコレクション_",
+                    "RecommendedCapacity": 20,
+                    "Capacity": 40,
+                    "Description": "ホラーワールドのポータルを置いてたり私が置きたいものを置いているワールドです。新しいホラーワールドを見つけたら更新していきます。 2023_07_14 VCC対応⁄ワールドサムネ変更⁄ワールド名変更",
                     "Platform": {
                         "PC": true,
-                        "Android": true,
-                        "iOS": true
+                        "Android": false,
+                        "iOS": false
                     },
-                    "ReleaseStatus": "public",
-                    "PermittedRoles": ["ロール1", "ロール2"]
+                    "ReleaseStatus": "public"
                 },
                 {
                     "ID": "wrld_01234567-0123-4567-89ab-0123456789ab",
                     "Name": "ワールド名2",
                     "RecommendedCapacity": 20,
                     "Capacity": 40,
-                    "Description": "ワールドの説明文2",
+                    "Description": "ホラーワールドのポータルを置いてたり私が置きたいものを置いているワールドです。新しいホラーワールドを見つけたら更新していきます。 2023_07_14 VCC対応⁄ワールドサムネ変更⁄ワールド名変更",
                     "Platform": {
                         "PC": true,
-                        "Android": true,
+                        "Android": false,
                         "iOS": false
                     },
                     "ReleaseStatus": "private",
